@@ -12,54 +12,54 @@
 		D38179BB1CB6805F00557332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38179B91CB6805F00557332 /* Main.storyboard */; };
 		D38179BD1CB6805F00557332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38179BC1CB6805F00557332 /* Assets.xcassets */; };
 		D38179C01CB6805F00557332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38179BE1CB6805F00557332 /* LaunchScreen.storyboard */; };
-		D38179F51CB681E600557332 /* Chatto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38179F21CB681DA00557332 /* Chatto.framework */; };
-		D38179F61CB681E600557332 /* Chatto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D38179F21CB681DA00557332 /* Chatto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D38179F91CB681E600557332 /* ChattoAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38179E91CB681D500557332 /* ChattoAdditions.framework */; };
-		D38179FA1CB681E600557332 /* ChattoAdditions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D38179E91CB681D500557332 /* ChattoAdditions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D3A1D0AD1CB685850013096C /* ChattoAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A1D0AA1CB6857E0013096C /* ChattoAdditions.framework */; };
+		D3A1D0AE1CB685850013096C /* ChattoAdditions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3A1D0AA1CB6857E0013096C /* ChattoAdditions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D3A1D0B11CB685850013096C /* Chatto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A1D0A11CB6857B0013096C /* Chatto.framework */; };
+		D3A1D0B21CB685850013096C /* Chatto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3A1D0A11CB6857B0013096C /* Chatto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D38179E81CB681D500557332 /* PBXContainerItemProxy */ = {
+		D3A1D0A01CB6857B0013096C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C3C0CBB81BFE49320052747C;
-			remoteInfo = ChattoAdditions;
-		};
-		D38179EA1CB681D500557332 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C3C0CBC21BFE49320052747C;
-			remoteInfo = ChattoAdditionsTests;
-		};
-		D38179F11CB681DA00557332 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
+			containerPortal = D3A1D09B1CB6857B0013096C /* Chatto.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C32BB7201BE0504D0069EC50;
 			remoteInfo = Chatto;
 		};
-		D38179F31CB681DA00557332 /* PBXContainerItemProxy */ = {
+		D3A1D0A21CB6857B0013096C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
+			containerPortal = D3A1D09B1CB6857B0013096C /* Chatto.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C32BB72A1BE0504D0069EC50;
 			remoteInfo = ChattoTests;
 		};
-		D38179F71CB681E600557332 /* PBXContainerItemProxy */ = {
+		D3A1D0A91CB6857E0013096C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C32BB71F1BE0504D0069EC50;
-			remoteInfo = Chatto;
+			containerPortal = D3A1D0A41CB6857D0013096C /* ChattoAdditions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3C0CBB81BFE49320052747C;
+			remoteInfo = ChattoAdditions;
 		};
-		D38179FB1CB681E600557332 /* PBXContainerItemProxy */ = {
+		D3A1D0AB1CB6857E0013096C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
+			containerPortal = D3A1D0A41CB6857D0013096C /* ChattoAdditions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3C0CBC21BFE49320052747C;
+			remoteInfo = ChattoAdditionsTests;
+		};
+		D3A1D0AF1CB685850013096C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A1D0A41CB6857D0013096C /* ChattoAdditions.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = C3C0CBB71BFE49320052747C;
 			remoteInfo = ChattoAdditions;
+		};
+		D3A1D0B31CB685850013096C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A1D09B1CB6857B0013096C /* Chatto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C32BB71F1BE0504D0069EC50;
+			remoteInfo = Chatto;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,8 +70,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D38179F61CB681E600557332 /* Chatto.framework in Embed Frameworks */,
-				D38179FA1CB681E600557332 /* ChattoAdditions.framework in Embed Frameworks */,
+				D3A1D0AE1CB685850013096C /* ChattoAdditions.framework in Embed Frameworks */,
+				D3A1D0B21CB685850013096C /* Chatto.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,8 +86,8 @@
 		D38179BC1CB6805F00557332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38179BF1CB6805F00557332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38179C11CB6805F00557332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChattoAdditions.xcodeproj; path = "../../../../../Downloads/Chatto-master/ChattoAdditions/ChattoAdditions.xcodeproj"; sourceTree = "<group>"; };
-		D38179EC1CB681DA00557332 /* Chatto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chatto.xcodeproj; path = "../../../../../Downloads/Chatto-master/Chatto/Chatto.xcodeproj"; sourceTree = "<group>"; };
+		D3A1D09B1CB6857B0013096C /* Chatto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chatto.xcodeproj; path = ChatTestProject/Frameworks/Chatto/Chatto.xcodeproj; sourceTree = "<group>"; };
+		D3A1D0A41CB6857D0013096C /* ChattoAdditions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChattoAdditions.xcodeproj; path = ChatTestProject/Frameworks/ChattoAdditions/ChattoAdditions.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38179F51CB681E600557332 /* Chatto.framework in Frameworks */,
-				D38179F91CB681E600557332 /* ChattoAdditions.framework in Frameworks */,
+				D3A1D0AD1CB685850013096C /* ChattoAdditions.framework in Frameworks */,
+				D3A1D0B11CB685850013096C /* Chatto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,26 +136,26 @@
 		D38179C71CB6808900557332 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D38179EC1CB681DA00557332 /* Chatto.xcodeproj */,
-				D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */,
+				D3A1D0A41CB6857D0013096C /* ChattoAdditions.xcodeproj */,
+				D3A1D09B1CB6857B0013096C /* Chatto.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D38179E41CB681D500557332 /* Products */ = {
+		D3A1D09C1CB6857B0013096C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D38179E91CB681D500557332 /* ChattoAdditions.framework */,
-				D38179EB1CB681D500557332 /* ChattoAdditionsTests.xctest */,
+				D3A1D0A11CB6857B0013096C /* Chatto.framework */,
+				D3A1D0A31CB6857B0013096C /* ChattoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D38179ED1CB681DA00557332 /* Products */ = {
+		D3A1D0A51CB6857D0013096C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D38179F21CB681DA00557332 /* Chatto.framework */,
-				D38179F41CB681DA00557332 /* ChattoTests.xctest */,
+				D3A1D0AA1CB6857E0013096C /* ChattoAdditions.framework */,
+				D3A1D0AC1CB6857E0013096C /* ChattoAdditionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,8 +175,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				D38179F81CB681E600557332 /* PBXTargetDependency */,
-				D38179FC1CB681E600557332 /* PBXTargetDependency */,
+				D3A1D0B01CB685850013096C /* PBXTargetDependency */,
+				D3A1D0B41CB685850013096C /* PBXTargetDependency */,
 			);
 			name = ChatTestProject;
 			productName = ChatTestProject;
@@ -211,12 +211,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D38179ED1CB681DA00557332 /* Products */;
-					ProjectRef = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
+					ProductGroup = D3A1D09C1CB6857B0013096C /* Products */;
+					ProjectRef = D3A1D09B1CB6857B0013096C /* Chatto.xcodeproj */;
 				},
 				{
-					ProductGroup = D38179E41CB681D500557332 /* Products */;
-					ProjectRef = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
+					ProductGroup = D3A1D0A51CB6857D0013096C /* Products */;
+					ProjectRef = D3A1D0A41CB6857D0013096C /* ChattoAdditions.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -227,32 +227,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D38179E91CB681D500557332 /* ChattoAdditions.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ChattoAdditions.framework;
-			remoteRef = D38179E81CB681D500557332 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D38179EB1CB681D500557332 /* ChattoAdditionsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChattoAdditionsTests.xctest;
-			remoteRef = D38179EA1CB681D500557332 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D38179F21CB681DA00557332 /* Chatto.framework */ = {
+		D3A1D0A11CB6857B0013096C /* Chatto.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Chatto.framework;
-			remoteRef = D38179F11CB681DA00557332 /* PBXContainerItemProxy */;
+			remoteRef = D3A1D0A01CB6857B0013096C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D38179F41CB681DA00557332 /* ChattoTests.xctest */ = {
+		D3A1D0A31CB6857B0013096C /* ChattoTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChattoTests.xctest;
-			remoteRef = D38179F31CB681DA00557332 /* PBXContainerItemProxy */;
+			remoteRef = D3A1D0A21CB6857B0013096C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3A1D0AA1CB6857E0013096C /* ChattoAdditions.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChattoAdditions.framework;
+			remoteRef = D3A1D0A91CB6857E0013096C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3A1D0AC1CB6857E0013096C /* ChattoAdditionsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChattoAdditionsTests.xctest;
+			remoteRef = D3A1D0AB1CB6857E0013096C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -283,15 +283,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D38179F81CB681E600557332 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Chatto;
-			targetProxy = D38179F71CB681E600557332 /* PBXContainerItemProxy */;
-		};
-		D38179FC1CB681E600557332 /* PBXTargetDependency */ = {
+		D3A1D0B01CB685850013096C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChattoAdditions;
-			targetProxy = D38179FB1CB681E600557332 /* PBXContainerItemProxy */;
+			targetProxy = D3A1D0AF1CB685850013096C /* PBXContainerItemProxy */;
+		};
+		D3A1D0B41CB685850013096C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chatto;
+			targetProxy = D3A1D0B31CB685850013096C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
