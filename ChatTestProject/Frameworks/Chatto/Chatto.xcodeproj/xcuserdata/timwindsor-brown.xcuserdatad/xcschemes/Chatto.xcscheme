@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D38179B11CB6805F00557332"
-               BuildableName = "ChatTestProject.app"
-               BlueprintName = "ChatTestProject"
-               ReferencedContainer = "container:ChatTestProject.xcodeproj">
+               BlueprintIdentifier = "C32BB71F1BE0504D0069EC50"
+               BuildableName = "Chatto.framework"
+               BlueprintName = "Chatto"
+               ReferencedContainer = "container:Chatto.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,21 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C32BB7291BE0504D0069EC50"
+               BuildableName = "ChattoTests.xctest"
+               BlueprintName = "ChattoTests"
+               ReferencedContainer = "container:Chatto.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D38179B11CB6805F00557332"
-            BuildableName = "ChatTestProject.app"
-            BlueprintName = "ChatTestProject"
-            ReferencedContainer = "container:ChatTestProject.xcodeproj">
+            BlueprintIdentifier = "C32BB71F1BE0504D0069EC50"
+            BuildableName = "Chatto.framework"
+            BlueprintName = "Chatto"
+            ReferencedContainer = "container:Chatto.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D38179B11CB6805F00557332"
-            BuildableName = "ChatTestProject.app"
-            BlueprintName = "ChatTestProject"
-            ReferencedContainer = "container:ChatTestProject.xcodeproj">
+            BlueprintIdentifier = "C32BB71F1BE0504D0069EC50"
+            BuildableName = "Chatto.framework"
+            BlueprintName = "Chatto"
+            ReferencedContainer = "container:Chatto.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D38179B11CB6805F00557332"
-            BuildableName = "ChatTestProject.app"
-            BlueprintName = "ChatTestProject"
-            ReferencedContainer = "container:ChatTestProject.xcodeproj">
+            BlueprintIdentifier = "C32BB71F1BE0504D0069EC50"
+            BuildableName = "Chatto.framework"
+            BlueprintName = "Chatto"
+            ReferencedContainer = "container:Chatto.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

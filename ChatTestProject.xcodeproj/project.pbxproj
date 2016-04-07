@@ -12,7 +12,71 @@
 		D38179BB1CB6805F00557332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38179B91CB6805F00557332 /* Main.storyboard */; };
 		D38179BD1CB6805F00557332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38179BC1CB6805F00557332 /* Assets.xcassets */; };
 		D38179C01CB6805F00557332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38179BE1CB6805F00557332 /* LaunchScreen.storyboard */; };
+		D38179F51CB681E600557332 /* Chatto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38179F21CB681DA00557332 /* Chatto.framework */; };
+		D38179F61CB681E600557332 /* Chatto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D38179F21CB681DA00557332 /* Chatto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D38179F91CB681E600557332 /* ChattoAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38179E91CB681D500557332 /* ChattoAdditions.framework */; };
+		D38179FA1CB681E600557332 /* ChattoAdditions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D38179E91CB681D500557332 /* ChattoAdditions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38179E81CB681D500557332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3C0CBB81BFE49320052747C;
+			remoteInfo = ChattoAdditions;
+		};
+		D38179EA1CB681D500557332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3C0CBC21BFE49320052747C;
+			remoteInfo = ChattoAdditionsTests;
+		};
+		D38179F11CB681DA00557332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C32BB7201BE0504D0069EC50;
+			remoteInfo = Chatto;
+		};
+		D38179F31CB681DA00557332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C32BB72A1BE0504D0069EC50;
+			remoteInfo = ChattoTests;
+		};
+		D38179F71CB681E600557332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C32BB71F1BE0504D0069EC50;
+			remoteInfo = Chatto;
+		};
+		D38179FB1CB681E600557332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C0CBB71BFE49320052747C;
+			remoteInfo = ChattoAdditions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D38179E21CB680D800557332 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D38179F61CB681E600557332 /* Chatto.framework in Embed Frameworks */,
+				D38179FA1CB681E600557332 /* ChattoAdditions.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D38179B21CB6805F00557332 /* ChatTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +86,8 @@
 		D38179BC1CB6805F00557332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38179BF1CB6805F00557332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38179C11CB6805F00557332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChattoAdditions.xcodeproj; path = "../../../../../Downloads/Chatto-master/ChattoAdditions/ChattoAdditions.xcodeproj"; sourceTree = "<group>"; };
+		D38179EC1CB681DA00557332 /* Chatto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chatto.xcodeproj; path = "../../../../../Downloads/Chatto-master/Chatto/Chatto.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38179F51CB681E600557332 /* Chatto.framework in Frameworks */,
+				D38179F91CB681E600557332 /* ChattoAdditions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +106,7 @@
 		D38179A91CB6805F00557332 = {
 			isa = PBXGroup;
 			children = (
+				D38179C71CB6808900557332 /* Frameworks */,
 				D38179B41CB6805F00557332 /* ChatTestProject */,
 				D38179B31CB6805F00557332 /* Products */,
 			);
@@ -64,6 +133,33 @@
 			path = ChatTestProject;
 			sourceTree = "<group>";
 		};
+		D38179C71CB6808900557332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D38179EC1CB681DA00557332 /* Chatto.xcodeproj */,
+				D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38179E41CB681D500557332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38179E91CB681D500557332 /* ChattoAdditions.framework */,
+				D38179EB1CB681D500557332 /* ChattoAdditionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38179ED1CB681DA00557332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38179F21CB681DA00557332 /* Chatto.framework */,
+				D38179F41CB681DA00557332 /* ChattoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,10 +170,13 @@
 				D38179AE1CB6805F00557332 /* Sources */,
 				D38179AF1CB6805F00557332 /* Frameworks */,
 				D38179B01CB6805F00557332 /* Resources */,
+				D38179E21CB680D800557332 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D38179F81CB681E600557332 /* PBXTargetDependency */,
+				D38179FC1CB681E600557332 /* PBXTargetDependency */,
 			);
 			name = ChatTestProject;
 			productName = ChatTestProject;
@@ -110,12 +209,53 @@
 			mainGroup = D38179A91CB6805F00557332;
 			productRefGroup = D38179B31CB6805F00557332 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D38179ED1CB681DA00557332 /* Products */;
+					ProjectRef = D38179EC1CB681DA00557332 /* Chatto.xcodeproj */;
+				},
+				{
+					ProductGroup = D38179E41CB681D500557332 /* Products */;
+					ProjectRef = D38179E31CB681D500557332 /* ChattoAdditions.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D38179B11CB6805F00557332 /* ChatTestProject */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D38179E91CB681D500557332 /* ChattoAdditions.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChattoAdditions.framework;
+			remoteRef = D38179E81CB681D500557332 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D38179EB1CB681D500557332 /* ChattoAdditionsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChattoAdditionsTests.xctest;
+			remoteRef = D38179EA1CB681D500557332 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D38179F21CB681DA00557332 /* Chatto.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Chatto.framework;
+			remoteRef = D38179F11CB681DA00557332 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D38179F41CB681DA00557332 /* ChattoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChattoTests.xctest;
+			remoteRef = D38179F31CB681DA00557332 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D38179B01CB6805F00557332 /* Resources */ = {
@@ -141,6 +281,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38179F81CB681E600557332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chatto;
+			targetProxy = D38179F71CB681E600557332 /* PBXContainerItemProxy */;
+		};
+		D38179FC1CB681E600557332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChattoAdditions;
+			targetProxy = D38179FB1CB681E600557332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D38179B91CB6805F00557332 /* Main.storyboard */ = {
@@ -249,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ChatTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mumsnet.ChatTestProject;
@@ -260,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ChatTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mumsnet.ChatTestProject;
@@ -286,6 +441,7 @@
 				D38179C61CB6805F00557332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
