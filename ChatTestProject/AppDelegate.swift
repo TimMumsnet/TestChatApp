@@ -19,7 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        
+        // This should at least initialize properly, calling:
+        // textMessageCollectionViewCell.createBubbleView()
+        //
+        //      rather than:
+        // baseMessageCollectionViewCell.createBubbleView()
         let cell =  TextMessageCollectionViewCell.sizingCell()
         
         // Override point for customization after application launch.
